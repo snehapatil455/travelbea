@@ -46,7 +46,7 @@ export const  getWeatherData = async (lat,lng) => {
         'X-RapidAPI-Key': '0a00b815c8msh8f8ec3be97927b0p1494d3jsnb623ef036787',
         'X-RapidAPI-Host': 'community-open-weather-map.p.rapidapi.com',
       },
-    });
+    });//we can store
 
     return data;
     
